@@ -1,6 +1,27 @@
-<h1 class="text-3xl font-bold bg-orange-400 text-center p-3 text-white">
-  {{ title }}
-</h1>
-<app-footer></app-footer>
-<app-header></app-header>
+<header class="container">
+  <h1 class="btn">
+    {{ title }}
+  </h1>
+</header>
+<section class="flex justify-around bg-lime-100 border-2">
+  <div class="my-28 mx-16 border-2 p-5 bg-slate-200">
+    <button class="button-60" role="button">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="text">Click</span>
+    </button>
+  </div>
+  <div class="my-28 mx-16 border-2 p-5 bg-slate-200">
+    <button class="button-26" role="button">
+      <div class="button-26__content">
+        <span class="button-26__text text"> Button 26 </span>
+      </div>
+    </button>
+  </div>
+</section>
 <router-outlet></router-outlet>
+<!-- <footer class="inset-x-0 bg-slate-100 h-24 w-24 bottom-0 top-0">
+  <p>lorem</p>
+</footer> -->
